@@ -2,16 +2,16 @@
 
 ## Save pass:
 
-PaO3V3AhADX+Iw9/E95uQ4rs1ilaCjcT2ZS+ZzXHa8+ACRCLRPa1
+vPR02UVhwBnoqxQ3bOhxAqqQ0ZqdKwDOUnllP4LK1s+ACRCeZfew
 
 
 ## Run from terminal:
 
-docker build -t simpleapp24.azurecr.io/mltest:latest .
+docker build -t flasksimpleapp.azurecr.io/mltest:latest .
 
-docker login simpleapp24.azurecr.io
+docker login flasksimpleapp.azurecr.io
 
-docker push simpleapp24.azurecr.io/mltest:latest
+docker push flasksimpleapp.azurecr.io/mltest:latest
 
 
 ## Deployment Steps:
