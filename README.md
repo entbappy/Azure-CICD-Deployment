@@ -2,16 +2,16 @@
 
 ## Save pass:
 
-ta0rW+JXf/LfkE2KBJgSdTVzi34436S+ACRAbqmA/
+PaO3V3AhADX+Iw9/E95uQ4rs1ilaCjcT2ZS+ZzXHa8+ACRCLRPa1
 
 
 ## Run from terminal:
 
-docker build -t bappyapp.azurecr.io/mltest:latest .
+docker build -t simpleapp24.azurecr.io/mltest:latest .
 
-docker login bappyapp.azurecr.io
+docker login simpleapp24.azurecr.io
 
-docker push bappyapp.azurecr.io/mltest:latest
+docker push simpleapp24.azurecr.io/mltest:latest
 
 
 ## Deployment Steps:
